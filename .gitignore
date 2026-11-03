@@ -1,0 +1,18 @@
+Library/
+Temp/
+Logs/
+UserSettings/
+obj/
+Build/
+Builds/
+*.csproj
+*.sln
+*.slnx
+.vscode/
+.idea/
+.DS_Store
+# The SDK comes from the developer portal; what the sync installs stays on your machine.
+Packages/*.tgz
+Assets/LatentVoice/
+Assets/LatentVoice.meta
+Packages/packages-lock.json

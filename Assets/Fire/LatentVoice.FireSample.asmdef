@@ -1,0 +1,9 @@
+{
+    "name": "LatentVoice.FireSample",
+    "references": ["LatentVoice"],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "defineConstraints": ["LATENT_VOICE_SDK"],
+    "versionDefines": [{"name": "com.latentgames.voice", "expression": "0.4.0", "define": "LATENT_VOICE_SDK"}],
+    "autoReferenced": true
+}
