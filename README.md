@@ -9,8 +9,9 @@ This repository has the sample only. The SDK comes from the developer portal, so
 1. Clone this repository, and open the folder in Unity 6000.0 or later (Unity Hub > Add). The campfire scene opens by itself.
 2. Sign in to the developer portal, download the SDK, and create an AccessKey for **サンプルプロジェクト(焚き火)**.
 3. Put the `.tgz` in this project's `Packages/` folder, then use **Window > Package Manager > + > Add package from tarball**. The Latent Voice object is added to the scene when the SDK loads.
-4. Open **Tools > Latent Voice > Sync published WordSet**, paste the key, press **セットアップ**, and save the scene.
-5. Press Play and say ファイア, then ストップ.
+4. Open **Tools > Latent Voice > Sync published WordSet**, paste the key and press **セットアップ**.
+5. Open **Tools > Latent Voice > Words**. In **プロジェクト共通**, choose **Auto（推奨）** for the microphone input. Under **シーンごとの設定**, select **Fire**, assign the synced WordSet if prompted, and save the scene. Word switches and sensitivity apply to this scene; microphone input applies to the whole project.
+6. Press Play and say ファイア, then ストップ.
 
 ## The code
 
@@ -53,8 +54,9 @@ The MIT License doesn't cover the sound. `Assets/Fire/Audio/FireLoop.wav` is
 1. このリポジトリをクローンし、Unity 6000.0 以降でフォルダーを開きます（Unity Hub > Add）。焚き火のシーンが自動で開きます。
 2. 開発者ポータルにログインし、SDK をダウンロードして、**サンプルプロジェクト(焚き火)** の AccessKey を作ります。
 3. `.tgz` をこのプロジェクトの `Packages/` に置き、**Window > Package Manager > + > Add package from tarball** で追加します。SDK が読み込まれると、シーンに Latent Voice のオブジェクトが追加されます。
-4. **Tools > Latent Voice > Sync published WordSet** を開き、キーを貼り付けて **セットアップ** を押し、シーンを保存します。
-5. Play を押して、ファイア、ストップ と話します。
+4. **Tools > Latent Voice > Sync published WordSet** を開き、キーを貼り付けて **セットアップ** を押します。
+5. **Tools > Latent Voice > Words** を開きます。「プロジェクト共通」の入力方式を **Auto（推奨）** にし、「シーンごとの設定」で **Fire** を選びます。割り当てを求められたら同期済みの WordSet を割り当て、シーンを保存します。単語のオン／オフと感度はこのシーンだけ、入力方式はプロジェクト全体に適用されます。
+6. Play を押して、ファイア、ストップ と話します。
 
 ## コード
 
